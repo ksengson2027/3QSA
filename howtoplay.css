@@ -1,0 +1,74 @@
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    background-image: url('CS_SA_thing_1.png');
+    background-size: cover;
+}
+#howtoplay {
+    font-size: 69px;
+    color: white;
+    background-color: #3E2947;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+#howwelldo, #tipsntricks{
+    font-size: 40px;
+    color: white;
+    background-color: #3E2947;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+#tutorial-container {
+    background-image: url('paper.avif');
+    padding: 10px;
+}
+li {
+    margin-top: 10px;
+    color: #5E579B;
+    font-size: 30px;
+}
+#noteL {
+    color: #3E3A64;
+}
+#note {
+    color: #5E579B;
+    font-size: 20px;
+}
+.tipname {
+    color: #3E3A64;
+    font-size: 30px;
+}
+.tip {
+    color: #5E579B;
+    font-size: 20px;
+}
+.tip-container {
+    transform: translate(5%, 0%);
+}
+.tipsntricks-container {
+    background-image: url('paper.avif');
+    padding: 10px;
+}
+.goback {
+    font-size: 40px;
+    color: white;
+    background-color: #3E2947;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+    transition: 100ms;
+}
+.goback:hover {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}

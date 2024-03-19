@@ -1,0 +1,128 @@
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    background-image: url('CS_SA_thing_1.png');
+    background-size: cover;
+    background-position: center;
+}
+  
+#canvas {
+    border: 10px solid black;
+    background-color: white;
+}
+#game {
+    display: none;
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#title {
+    font-size: 100px;
+    color: #3E2947;
+    text-shadow: 5px 5px rgba(255, 255, 255, 0.5);
+    margin-top: 200px;
+}
+.counter {
+    font-size: 45px;
+    left: 900px;
+    text-shadow: 2px 2px gray;
+}
+#startButton {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    color: white;
+    background-color: #392442;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 20px;
+    transition: 30ms;
+}
+#startButton:hover {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+.starting-screen-hrefs {
+    font-size: 20px;
+    margin-top: 1000px;
+    text-decoration: none;
+    color: white;
+    background-color: #392442;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 20px;
+    transition: 30ms;
+}
+.starting-screen-hrefs:hover {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+#win-popup {
+    display: none;
+}
+#quiz-popup {
+    position: fixed;
+    padding: 6px;
+    width: 600px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    backdrop-filter: none;
+    background-color: black;
+}
+.quiz-border {
+    border: 10px solid #877ECF;
+    background-color: white;
+}
+.quiz-button {
+    border: 2px solid black;
+    min-height: 20px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: #BBB7DB;
+}
+.toy-display {
+    position: absolute;
+    left: 880px;
+    bottom: 400px;
+}
+.toy-display-img {
+    width: 120px;
+    height: 120px;
+    display: none;
+}
+#win-popup {
+    position: fixed;
+    padding: 6px;
+    width: 600px;
+    left: 50%;
+    transform: translate(-80%, 0%);
+    display: none;
+    backdrop-filter: none;
+}
+#bigpao {
+    text-align: center;
+}
+#winning-text {
+    text-align: center;
+    margin-left: 400px;
+    font-size: 50px;
+    top: 1000px;
+}

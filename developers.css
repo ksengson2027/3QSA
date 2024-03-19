@@ -1,0 +1,37 @@
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    background-image: url('CS_SA_thing_1.png');
+    background-size: cover;
+}
+.goback {
+    font-size: 40px;
+    color: white;
+    background-color: #3E2947;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+    transition: 100ms;
+}
+.goback:hover {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.devIMG {
+    width: 300px;
+    border: 1px #3C3333 solid;
+}
+.developer {
+    background-color: #F2F1EB;
+    padding-top: 15px;
+    width: 80%;
+    border: 1px #3C3333 solid;
+    margin-top: 100px;
+}
+.about-dev {
+    font-size: 20px;
+}

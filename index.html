@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balingkiclaw</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="text-center" id="starting-screen">
+        <p id="title">BALINGKICLAW</p>
+        <button type="button" onclick="startGame()" id="startButton">Buy Token</button><br><br>
+        <a href="howtoplay.html" class="starting-screen-hrefs">How to play</a><br><br><br><br>
+        <a href="developers.html" class="starting-screen-hrefs">Developers</a>
+    </div>
+    <div id="game" class="text-center">
+        <canvas id="canvas" width="512" height="768" style="position: absolute; bottom: 10%; left: 15%;"></canvas>
+        <p id="tries-counter" class="counter" style="position: absolute; bottom: 630px;">Amount of tries: 5</p>
+        <p id="score-counter" class="counter" style="position: absolute; bottom: 710px;">Score: 0</p>
+        <div class="toy-display">
+            <img src="./toys/sasha.png" class="toy-display-img" id="toy-display-1" alt="">
+            <img src="./toys/sasha.png" class="toy-display-img" id="toy-display-2" alt="">
+            <img src="./toys/sasha.png" class="toy-display-img" id="toy-display-3" alt="">
+            <img src="./toys/sasha.png" class="toy-display-img" id="toy-display-4" alt="">
+            <img src="./toys/sasha.png" class="toy-display-img" id="toy-display-5" alt="">  
+        </div>
+    </div>
+    <div id="quiz-popup">
+        <div class="quiz-border text-center">
+            <p style="font-size: 69px;">Who was it?</p>
+            <button class="quiz-button" onclick="answerQuiz(1)" id="button-1">blank</button>
+            <button class="quiz-button" onclick="answerQuiz(2)" id="button-2">blank</button><br>
+            <button class="quiz-button" onclick="answerQuiz(3)" id="button-3">blank</button>
+            <button class="quiz-button" onclick="answerQuiz(4)" id="button-4">blank</button>
+            <br><br>
+        </div>
+    </div>
+    <div id="win-popup">
+        <p id="winning-text" onclick="resetGame()">You win!</p>
+        <img src="./toys/bigpaolo.png" width="1024" id="bigpao" alt="">        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
